@@ -55,4 +55,4 @@ Model 3 achieved a score of def
 
 To visualize our data, we created a dashboard that allows you to compare, in each year, the super bowl winner vs. non-super bowl winners.  
 
-Additionally, we created a dashboard that, using our best performing model, allows you to input the features listed above to predict the score of such a team winning the super bowl. We believe this tool will allows teams to set achievable targets to maximize their chances to win a Super Bowl
+Additionally, we created a dashboard that, using our best performing model, allows you to input the features listed above to predict the score of such a team winning the super bowl. We believe this tool will allow teams to set achievable targets to maximize their chances to win a Super Bowl
