@@ -10,18 +10,33 @@ This repository is our attempt to build a model to predict Super Bowl champions.
 
 We aggreggated NFL game data for each team by year. We aggregated on the following features:
 
-    * feature 1
-    * feature 2
-    * feature 3
-    * feature 4
-    * feature 5
-    * feature 6
-    * feature 7
-    * feature 8
-    * feature 9
-    * feature 10
+    * Passes Completed
+    * Passes Attempted
+    * Passing Yards
+    * Rushing Yards
+    * Rushing Attempts
+    * Fumbles
+    * Interceptions
+    * Drives
+    * First Downs
+    * Defensive/Special Teams TDs
+    * Third Downs Completed
+    * Third Downs Attempted
+    * Fourth Downs Completed
+    * Fourth Downs Attempted
+    * Sacks Count
+    * Sacks Yards Lost
+    * Penalties Count
+    * Penalties Yards Lost
+    * Time of Possession (in seconds)
+    * Points Scored
+    * Wins
     
 After aggregation, we combined all years' data and indicated whether the team won the Super Bowl. This indication became our target prediction.  
+
+### Dataset Considerations
+
+Once we aggregated the raw data, our output gave us a dataset with each teams' full season statistics. Of course, in one season there can only be one winner. This dataset can be classified as an imbalanced dataset. Roughly 3% of the data is Super Bowl winners, while the rest are not. In an ideal situation, the distribution between target and non-target data points should be even or close to even. 
 
 ### Model Considerations
 
